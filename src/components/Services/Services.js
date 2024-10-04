@@ -5,6 +5,8 @@ import { css } from '@emotion/react';
 import { ClipLoader } from 'react-spinners';
 import api from '../../config';
 
+// Services
+
 const override = css`
   display: block;
   margin: 0 auto;
@@ -62,5 +64,6 @@ const ServicesPage = () => {
     </Container>
   );
 };
+
 
 export default ServicesPage;
